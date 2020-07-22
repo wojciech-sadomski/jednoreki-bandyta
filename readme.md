@@ -1,18 +1,12 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![Foto Casino Game](git/jednoreki-bandyta.jpeg)
 
-# WTF Webpack Starter Kit 
+# Jednoręki bandyta
 
-Simple toolkit for your static websites development.
+Zobacz czy masz w sobie duszę hazardzisty
 
-## How to use it?
+## Do czego służy aplikacja
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
-
-## Available scripts
-
-`npm run start` - runs development mode
-
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
-
+- Aplikacja wykorzystuje algorytm do losowania numeru z przedzuału 0-1 który jest przetwarzany na kolor danego pola. Stawka początkowa jest generowana po każdym odświerzeniu(można oszukiwać;)
+- HTML - prosty szkielet z podstawowych elementów
+- CSS - style powiązane z wynikami lub działaniami użytkownika
+- JS - mechanizmy potrzebne do obsługi gry są stworzone za pomocą klas. Każda sekca korzysta z jednej lub kliku klas w zależności od zapotrzebowania.
