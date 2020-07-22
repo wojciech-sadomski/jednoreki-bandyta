@@ -1,12 +1,114 @@
 @import "~normalize.css";
-
 @import "_variables";
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 body {
-  background: $wtf;
+  background: url(../assets/img/tlo.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   display: flex;
-  align-items: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 80%;
+  margin: 5vh auto 0;
+  font-family: "open sans", roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  font-size: 100px;
+  color: blue;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+h2 {
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: rgb(231, 109, 109);
+}
+.game {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
   justify-content: center;
-  min-height: 100vh;
+}
+.game div {
+  height: 15vh;
+  width: 20%;
+  margin: 10px;
+  border: 3px solid gray;
+}
+
+.play {
+  text-align: center;
+  &__input {
+    height: 90px;
+    font-size: 40px;
+    padding: 20px;
+    // width: 400px;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 10px;
+  }
+}
+
+.play button {
+  width: 40%;
+  height: 90px;
+  text-align: center;
+  padding: 20px 60px;
+  font-size: 40px;
+  text-transform: uppercase;
+  background-color: #333;
+  border: none;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 6px;
+  border-radius: 30px;
+}
+
+.panel {
+  margin: 30px 0 40px;
+  font-size: 26px;
+  text-align: center;
+}
+.score {
+  font-size: 26px;
+  text-align: center;
+}
+.score span {
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .wrap {
+    width: 90%;
+  }
+  .play input {
+    height: 70px;
+    font-size: 30px;
+    display: block;
+    margin: 20px auto;
+  }
+  .play button {
+    height: 74px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 }
