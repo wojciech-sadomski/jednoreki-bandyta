@@ -1,4 +1,4 @@
-![Foto Casino Game](git/jednoreki-bandyta.jpeg)
+![Foto Casino Game](git/jednoreki-bandyta.jpg)
 
 # Jednoręki bandyta
 
